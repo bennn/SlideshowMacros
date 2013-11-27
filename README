@@ -1,0 +1,8 @@
+WARNING: This is still under heavy development and the API will change. I would love any help you can give to this project, both on improving functionality, and performance.
+
+To run presentation:
+
+1. Install racket (5.3.5 or later should work), latex.
+2. If you want to use dot files, also install: xsltproc, rsvg-convert, and graphviz
+3. Run install.sh script.
+4. Run make
