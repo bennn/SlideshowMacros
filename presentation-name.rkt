@@ -7,10 +7,10 @@
          (for-syntax syntax/stx)
          "slideshow-macros.rkt")
 
-(require "snippits.rkt")
+;(require "snippits.rkt")
 
 (title-slide
- (large-large-text "Sample Presentation")
+ (large-text "Sample Presentation")
  (colorize (medium-text "Leif Andersen") "blue")
  (colorize (t "University of Utah") "red"))
 

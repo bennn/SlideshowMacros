@@ -1,5 +1,5 @@
 all:
-	for i in *.dot; do\
+#	for i in *.dot; do\
 		dot -Tsvg $$i > `basename $$i .dot`.svg;\
 		dot -Tps $$i > `basename $$i .dot`.pdf;\
 		dot -Tpdf $$i > `basename $$i .dot`.pdf;\
