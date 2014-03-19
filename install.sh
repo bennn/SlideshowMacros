@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 raco pkg install slideshow-latex
-for i in *.dot; do
+for i in `find . -name "*.dot"`; do
     dot -Tsvg $i > `basename $i .dot`.svg
     dot -Tps $i > `basename $i .dot`.pdf
     dot -Tpdf $i > `basename $i .dot`.pdf
